@@ -1,0 +1,9 @@
+---
+userName: vip2
+group: Guest
+permissions:
+- pocketmine.command.feed
+- essentials.feed
+worlds: []
+time: -1
+...

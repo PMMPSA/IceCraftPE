@@ -1,0 +1,179 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+crates-version: 1
+
+# IMPORTANT NOTE:
+# To reward the player with a command make sure that the meta of the reward is same as
+# commandMeta set in config.yml or else the command won't work.
+#
+# Note(s):
+# - Please use tabs instead of spaces.
+# - You can add infinite many crates to your server just follow the example below.
+# - Use "§" for adding colors.
+# - The headings/keys marked with (OPTIONAL) means that you don't need to add them. The item will work just fine even if its not there.
+crates:
+# EXAMPLE CONFIGURATION.
+# ------------------------
+# crate-name:             | Set the name of the crate.
+#  drops:                 | List the items that can be received from the crate.
+#   - name: "G-Helmet"    | Custom name for the item. (OPTIONAL).
+#     id: 1               | ID of the reward.
+#     meta: 0             | Meta or Damage value of the Item.
+#     amount: 1           | The amount of Item that player receives.
+#     enchantments:       | Set enchants for items here. Both VanillaEnchantments and PiggyCustomEnchants are supported. (OPTIONAL).
+#       protection:       | Name of enchant you wish to apply.
+#         level: 3        | The level for enchant.
+#       unbreaking:       | You can set multiple enchants as long as they are registered.
+#         level: 2        | NOTE: If you don't want enchants simply remove the enchantments heading.
+#     lore: "USE ME"      | Add a custom lore to the reward. Use "\n" for next line. (OPTIONAL).
+#     commands:           | Add commands to execute when player wins a reward. Multiple commands supported. (OPTIONAL).
+#     - "say hi"          | Use \"%PLAYER%\" to insert player name (with the quotes and slash).
+#     - "say test"        | Don't forget to mention the maxCommands in config.yml.
+#  block: "911:0"         | Set the block ID you want the crate to represent. Placing a chest on it will activate the crate.
+#  broadcast:             | Want to broadcast a message when a player opens a crate?
+#   enable: true          | Set this to true to enable broadcasts and false to disable broadcasts.
+#   command: "say hi"     | The command the executes when a player opens a crate.
+# ------------------------
+
+  giap:
+    drops:
+      - name: "§l§✳ §d§lGiáp mùa xuân ✔ §7(Phiên bản có hạn trong tháng§e ⚠§7)"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          thorns:
+            level: 10  
+        lore: " §l§b⬛◼◾§e Bộ giáp có hạn (hết mùa xuân này !!!!) §b◾◼⬛\n§r§eHãy nhanh tay cơ hội này và Vote để có chìa khóa quay\n§eĐây là mảnh đầu tiên của §dbộ giáp mùa xuân §7(1/4)\n\n§l§e⭐§6 Những ai có bộ giáp này chúc bạn 1 năm mới vui vẻ và hạnh phúc"
+      - name: "Rác 1"        
+        id: 1
+        meta: 0
+        amount: 16
+      - name: "Rác 2"        
+        id: 2
+        meta: 0
+        amount: 16
+      - name: "Rác 3"        
+        id: 4
+        meta: 0
+        amount: 16
+      - name: "§bCũng không hẵn là rác 4 :V"        
+        id: 264
+        meta: 0
+        amount: 16        
+    block: "173:0"
+    broadcast:
+      enable: true
+      command: "say §l§7[§6Crate§7]§a người chơi \"%PLAYER%\" đang mở rương có giáp"
+  quan:
+    drops:
+      - name: "§l§✳ §d§lQuần mùa xuân ✔ §7(Phiên bản có hạn trong tháng§e ⚠§7)"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          thorns:
+            level: 10  
+        lore: " §l§b⬛◼◾§e Bộ giáp có hạn (hết mùa xuân này !!!!) §b◾◼⬛\n§r§eHãy nhanh tay cơ hội này và Vote để có chìa khóa quay\n§eĐây là mảnh thứ 2 của §dbộ giáp mùa xuân §7(2/4)\n\n§l§e⭐§6 Những ai có bộ giáp này chúc bạn 1 năm mới vui vẻ và hạnh phúc"
+      - name: "Rác 1"        
+        id: 3
+        meta: 0
+        amount: 16
+      - name: "Rác 2"        
+        id: 17
+        meta: 0
+        amount: 16
+      - name: "Rác 3"        
+        id: 2
+        meta: 0
+        amount: 16
+      - name: "§bKhông phải là rác 4 :V"        
+        id: 42
+        meta: 0
+        amount: 16        
+    block: "41:0"
+    broadcast:
+      enable: true
+      command: "say §l§7[§6Crate§7]§a người chơi \"%PLAYER%\" đang mở rương có quần"
+  giay:
+    drops:
+      - name: "§l§✳ §d§lGiày mùa xuân ✔ §7(Phiên bản có hạn trong tháng§e ⚠§7)"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          thorns:
+            level: 10  
+        lore: " §l§b⬛◼◾§e Bộ giáp có hạn (hết mùa xuân này !!!!) §b◾◼⬛\n§r§eHãy nhanh tay cơ hội này và Vote để có chìa khóa quay\n§eĐây là mảnh thứ 3 của §dbộ giáp mùa xuân §7(3/4)\n\n§l§e⭐§6 Những ai có bộ giáp này chúc bạn 1 năm mới vui vẻ và hạnh phúc"
+      - name: "Rác 1"        
+        id: 1
+        meta: 0
+        amount: 16
+      - name: "Rác 2"        
+        id: 17
+        meta: 0
+        amount: 16
+      - name: "Rác 3"        
+        id: 4
+        meta: 0
+        amount: 16
+      - name: "§bCũng không hẵn là rác 4 :V"        
+        id: 138
+        meta: 0
+        amount: 1        
+    block: "57:0"
+    broadcast:
+      enable: true
+      command: "say §l§7[§6Crate§7]§a người chơi \"%PLAYER%\" đang mở rương có giày"
+  non:
+    drops:
+      - name: "§l§✳ §d§lNón mùa xuân ✔ §7(Phiên bản có hạn trong tháng§e ⚠§7)"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 10
+          unbreaking:
+            level: 10
+          thorns:
+            level: 10  
+        lore: " §l§b⬛◼◾§e Bộ giáp có hạn (hết mùa xuân này !!!!) §b◾◼⬛\n§r§eHãy nhanh tay cơ hội này và Vote để có chìa khóa quay\n§eĐây là mảnh cuối cùng của §dbộ giáp mùa xuân §7(4/4)\n\n§l§e⭐§6 Những ai có bộ giáp này chúc bạn 1 năm mới vui vẻ và hạnh phúc"
+      - name: "Rác 1"        
+        id: 17
+        meta: 0
+        amount: 32
+      - name: "Rác 2"        
+        id: 2
+        meta: 0
+        amount: 10
+      - name: "Rác 3"        
+        id: 4
+        meta: 0
+        amount: 16
+      - name: "§bKhông phải là rác 4 :V"        
+        id: 133
+        meta: 0
+        amount: 20        
+    block: "133:0"
+    broadcast:
+      enable: true
+      command: "say §l§7[§6Crate§7]§a người chơi \"%PLAYER%\" đang mở rương có nón"
+
+# ---------------------------------------------------------
+# YOU CAN ADD MORE CRATES BELOW. JUST FOLLOW THE PATTERN.
+# ---------------------------------------------------------
+...

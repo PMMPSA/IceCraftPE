@@ -1,0 +1,27 @@
+---
+AuctionName: '                   §l§bChợ §eĐen'
+ItemDisplay: "§aMón đồ bán: §b{itemName} \n\n§r§aNgười bán: §b{seller}\n§r§aGiá: §b{price}§r\n\n§r§aHạn
+  bán: §b{expiration}"
+MyAuction: |-
+  §l§aDanh sách đồ bán
+  §rBạn đã bán §b{myauction}§c/{auctionlimit} §ađồ
+Bin: |-
+  §l§aThùng rác
+  §rNhấn để xem những đồ bán
+  đã hết hạn
+LeftArrow: §l§e<< Trang trước
+Refresh: |-
+  §l§dLàm mới
+  §rNhấn để làm mới chợ
+RightArrow: §l§eTrang sau >>
+HowToSell: |-
+  §l§eSao để bán
+  §rCầm đồ cần bán trên tay và ghi §a/ah sell <giá>
+Guide: |-
+  §l§aHướng dẫn
+  §rChợ đen là nơi mà bạn và mọi
+  ngườicó thể mua bán đồ
+AuctionBinName: '          §l§bĐồ Bán §eđã hết hạn'
+BackToAuction: §l§aTrở lại chợ
+ClaimAll: §l§bNhận tất cả
+...

@@ -1,0 +1,46 @@
+---
+MaxFactionNameLength: 20
+MaxPlayersPerFaction: 10
+ClaimingEnabled: true
+OnlyLeadersAndOfficersCanInvite: true
+OfficersCanClaim: true
+PlotSize: 25
+EnableMap: false
+MaxMapDistance: 500
+Member:
+  claim: false
+  demote: false
+  home: true
+  invite: false
+  kick: false
+  motd: false
+  promote: false
+  sethome: false
+  unclaim: false
+  unsethome: false
+Officer:
+  claim: true
+  demote: false
+  home: true
+  invite: true
+  kick: true
+  motd: true
+  promote: false
+  sethome: true
+  unclaim: true
+  unsethome: true
+PlayersNeededInFactionToClaimAPlot: 5
+PowerNeededToClaimAPlot: 1000
+PowerNeededToSetOrUpdateAHome: 250
+PowerGainedPerPlayerInFaction: 50
+PowerGainedPerKillingAnEnemy: 10
+PowerGainedPerAlly: 100
+AllyLimitPerFaction: 5
+TheDefaultPowerEveryFactionStartsWith: 0
+EnableOverClaim: true
+OverClaimCostsPower: false
+ClaimWorlds: []
+AllowChat: true
+AllowFactionPvp: false
+AllowAlliedPvp: false
+...

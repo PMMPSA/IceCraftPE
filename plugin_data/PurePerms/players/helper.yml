@@ -1,0 +1,8 @@
+---
+userName: helper
+group: Guest
+permissions:
+- essentials.gamemode
+worlds: []
+time: -1
+...

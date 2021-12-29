@@ -1,0 +1,8 @@
+---
+Limit: 5
+MinimumPrice: 5
+MaximumPrice: 10000000
+ExpirationInMinutes: 5
+ExpirationInHours: 0
+ExpirationInDays: 1
+...

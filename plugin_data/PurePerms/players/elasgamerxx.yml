@@ -1,0 +1,10 @@
+---
+userName: ElasGamerXx
+group: VIP4
+permissions:
+- pocketmine.command.gamemode
+worlds: []
+time: -1
+prefix: 2
+expTime: -1
+...

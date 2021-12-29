@@ -1,0 +1,476 @@
+#
+#
+#  Config Trade
+# Example:
+#           |"1":     
+#           |   Button: Example Trade
+#           |   Item:
+#           |       Id: id:meta:count
+#           |   New-Item:
+#           |       Id: id:meta:count
+#           |       Name: Name Item
+#           |       Lore: Lore Item
+#           |   Enchantments:
+#           |       Id: ID enchantment
+#           |       Level: Level Enchantment
+#           |   Content: Content Trade
+"1":
+  Button: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy"
+  Item: 
+    Id: "57:0:100"
+  New-Item:
+    Id: "7:0:1"
+    Name: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy"
+    Lore: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy\n§e Trị Gía§f : 10§6 Point"
+  Enchantments:
+    1:
+        Id: "fortune"
+        Level: 4
+  Content: "§f§lKhối Kim Cương§c x100§e => §f§l[§1Bedrock§f] §7Khối§4 Đá Qúy"
+"2":
+  Button: "§f§l[§aVote§f] §cVân Thần §6Kiếm"
+  Item: 
+    Id: "370:0:32"
+  New-Item:
+    Id: "267:0:1"
+    Name: "§f§l[§aVote§f] §cVân Thần §6Kiếm"
+    Lore: "§f§l[§aVote§f] §cVân Thần §6Kiếm"
+  Enchantments:
+    1:
+        Id: "knockback"
+        Level: 1
+    2:
+        Id: "sharpness"
+        Level: 9
+    3:
+        Id: "smite"
+        Level: 13
+    4:
+        Id: "bane_of_arthropods"
+        Level: 13
+    5:
+        Id: "looting"
+        Level: 6
+    6:
+        Id: "fire_aspect"
+        Level: 13
+    7:
+        Id: "vampire"
+        Level: 1
+    8:
+        Id: "lifesteal"
+        Level: 1
+    9:
+        Id: "lightning"
+        Level: 1
+  Content: "§fĐá§a Bình Chọn§c x32 §f=>§f§l[§aVote§f] §cVân Thần §6Kiếm\nSắt bén:§6 8\nĐập:§6 13\nLửa :§6 13\nHút Máu :§6 1\nHồi Thức Ăn :§6 1\nSét :§6 1"
+"3":
+  Button: "§f§l[§aVote§f] §cVân Thần §6Nón"
+  Item: 
+    Id: "370:0:24"
+  New-Item:
+    Id: "306:0:1"
+    Name: "§f§l[§aVote§f] §cVân Thần §6Nón"
+    Lore: "§f§l[§aVote§f] §cVân Thần §6Nón"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 22
+    2:
+        Id: "projectile_protection"
+        Level: 22
+    3:
+        Id: "blast_protection"
+        Level: 22
+    4:
+        Id: "thorns"
+        Level: 5
+    5:
+        Id: "respiration"
+        Level: 22
+    6:
+        Id: "fire_protection"
+        Level: 22
+    7:
+        Id: "Cactus"
+        Level: 3
+    8:
+        Id: "Shielded"
+        Level: 1
+    9:
+        Id: "Overload"
+        Level: 1
+  Content: "§fĐá§a Bình Chọn§c x24 §f=>§f§l[§aVote§f] §cVân Thần §6Nón"
+"4":
+  Button: "§f§l[§aVote§f] §cVân Thần §6Giáp"
+  Item: 
+    Id: "370:0:32"
+  New-Item:
+    Id: "307:0:1"
+    Name: "§f§l[§aVote§f] §cVân Thần §6Giáp"
+    Lore: "§f§l[§aVote§f] §cVân Thần §6Giáp"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 22
+    2:
+        Id: "projectile_protection"
+        Level: 22
+    3:
+        Id: "blast_protection"
+        Level: 22
+    4:
+        Id: "thorns"
+        Level: 5
+    5:
+        Id: "respiration"
+        Level: 22
+    6:
+        Id: "fire_protection"
+        Level: 22
+    7:
+        Id: "Cactus"
+        Level: 3
+    8:
+        Id: "Shielded"
+        Level: 1
+    9:
+        Id: "Overload"
+        Level: 1
+  Content: "§fĐá§a Bình Chọn§c x32 §f=>§f§l[§aVote§f] §cVân Thần §6Giáp"
+"5":
+  Button: "§f§l[§aVote§f] §cVân Thần §6Quần"
+  Item: 
+    Id: "370:0:32"
+  New-Item:
+    Id: "308:0:1"
+    Name: "§f§l[§aVote§f] §cVân Thần §6Quần"
+    Lore: "§f§l[§aVote§f] §cVân Thần §6Quần"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 22
+    2:
+        Id: "projectile_protection"
+        Level: 22
+    3:
+        Id: "blast_protection"
+        Level: 22
+    4:
+        Id: "thorns"
+        Level: 5
+    5:
+        Id: "respiration"
+        Level: 22
+    6:
+        Id: "fire_protection"
+        Level: 22
+    7:
+        Id: "Cactus"
+        Level: 3
+    8:
+        Id: "Shielded"
+        Level: 1
+    9:
+        Id: "Overload"
+        Level: 1
+  Content: "§fĐá§a Bình Chọn§c x32 §f=>§f§l[§aVote§f] §cVân Thần §6Quần"
+"6":
+  Button: "§f§l[§aVote§f] §cVân Thần §6Giày"
+  Item: 
+    Id: "370:0:24"
+  New-Item:
+    Id: "309:0:1"
+    Name: "§f§l[§aVote§f] §cVân Thần §6Giày"
+    Lore: "§f§l[§aVote§f] §cVân Thần §6Giày"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 22
+    2:
+        Id: "projectile_protection"
+        Level: 22
+    3:
+        Id: "blast_protection"
+        Level: 22
+    4:
+        Id: "thorns"
+        Level: 5
+    5:
+        Id: "respiration"
+        Level: 22
+    6:
+        Id: "fire_protection"
+        Level: 22
+    7:
+        Id: "Cactus"
+        Level: 3
+    8:
+        Id: "Shielded"
+        Level: 1
+    9:
+        Id: "Overload"
+        Level: 1
+  Content: "§fĐá§a Bình Chọn§c x24 §f=>§f§l[§aVote§f] §cVân Thần §6Giày"
+"7":
+  Button: "§c§l۵§b Nón§4 Better§c ۵"
+  Item: 
+    Id: "31:0:10"
+  New-Item:
+    Id: "310:0:1"
+    Name: "§c§l۵§b Nón§4 Better§c ۵"
+    Lore: "§c§l۵§b Nón§4 Better§c ۵"
+  Enchantments:
+    1:
+        Id: "heavy"
+        Level: 1
+    2:
+        Id: "tank"
+        Level: 1
+    3:
+        Id: "blast_protection"
+        Level: 30
+    4:
+        Id: "fire_protection"
+        Level: 30
+    5:
+        Id: "protection"
+        Level: 30
+    6:
+        Id: "projectile_protection"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "poisoned"
+        Level: 2
+  Content: "§fCây Better§c x10 §f=>§c§l۵§b Nón§4 Better§c ۵§c ۵\nBảo Vệ:§6 30\nBảo Vệ Khỏi vụ nổ:§6 30\nKháng Lửa :§6 30\nMiển Thương Kiếm :§6 15/100\nMiễn Thương Cung :§6 15/100\nGiảm Sát Thương Cung :§6 4\nĐộc Tố : 2"
+"8":
+  Button: "§c§l۵§b Giáp§4 Better§c ۵"
+  Item: 
+    Id: "31:0:20"
+  New-Item:
+    Id: "311:0:1"
+    Name: "§c§l۵§b Giáp§4 Better§c ۵"
+    Lore: "§c§l۵§b Giáp§4 Better§c ۵"
+  Enchantments:
+    1:
+        Id: "heavy"
+        Level: 1
+    2:
+        Id: "tank"
+        Level: 1
+    3:
+        Id: "blast_protection"
+        Level: 30
+    4:
+        Id: "fire_protection"
+        Level: 30
+    5:
+        Id: "protection"
+        Level: 30
+    6:
+        Id: "projectile_protection"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "poisoned"
+        Level: 2
+  Content: "§fCây Better§c x20 §f=>§c§l۵§b Giáp§4 Better§c ۵\nBảo Vệ:§6 30\nBảo Vệ Khỏi vụ nổ:§6 30\nKháng Lửa :§6 30\nMiển Thương Kiếm :§6 15/100\nMiễn Thương Cung :§6 15/100\nGiảm Sát Thương Cung :§6 4\nĐộc Tố : 2"
+"9":
+  Button: "§c§l۵§b Quần§4 Better§c ۵"
+  Item: 
+    Id: "31:0:20"
+  New-Item:
+    Id: "312:0:1"
+    Name: "§c§l۵§b Quần§4 Better§c ۵"
+    Lore: "§c§l۵§b Quần§4 Better§c ۵"
+  Enchantments:
+    1:
+        Id: "heavy"
+        Level: 1
+    2:
+        Id: "tank"
+        Level: 1
+    3:
+        Id: "blast_protection"
+        Level: 30
+    4:
+        Id: "fire_protection"
+        Level: 30
+    5:
+        Id: "protection"
+        Level: 30
+    6:
+        Id: "projectile_protection"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "poisoned"
+        Level: 2
+  Content: "§fCây Better§c x20 §f=>§c§l۵§b Quần§4 Better§c ۵\nBảo Vệ:§6 30\nBảo Vệ Khỏi vụ nổ:§6 30\nKháng Lửa :§6 30\nMiển Thương Kiếm :§6 15/100\nMiễn Thương Cung :§6 15/100\nGiảm Sát Thương Cung :§6 4\nĐộc Tố : 2"
+"10":
+  Button: "§c§l۵§b Giày§4 Better§c ۵"
+  Item: 
+    Id: "31:0:32"
+  New-Item:
+    Id: "313:0:1"
+    Name: "§c§l۵§b Giày§4 Better§c ۵"
+    Lore: "§c§l۵§b Giày§4 Better§c ۵"
+  Enchantments:
+    1:
+        Id: "heavy"
+        Level: 1
+    2:
+        Id: "tank"
+        Level: 1
+    3:
+        Id: "blast_protection"
+        Level: 30
+    4:
+        Id: "fire_protection"
+        Level: 30
+    5:
+        Id: "protection"
+        Level: 30
+    6:
+        Id: "projectile_protection"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "poisoned"
+        Level: 2
+  Content: "§fCây Better§c x10 §f=>§c§l۵§b Giày§4Better§c ۵\nBảo Vệ:§6 30\nBảo Vệ Khỏi vụ nổ:§6 30\nKháng Lửa :§6 30\nMiển Thương Kiếm :§6 15/100\nMiễn Thương Cung :§6 15/100\nGiảm Sát Thương Cung :§6 4\nĐộc Tố : 2"
+"11":
+  Button: "§c§l۵§b Kiếm §4Ma Vực§c ۵"
+  Item: 
+    Id: "7:0:320"
+  New-Item:
+    Id: "267:0:1"
+    Name: "§c§l۵§b Kiếm §4Ma Vực§c ۵"
+    Lore: "§c§l۵§b Kiếm Trừ Tà§c ۵\n §4Diệt BOSS §f:Gây Thêm 15925 sát thương với boss nhện và boss xương"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 18
+    2:
+        Id: "bane_of_arthropods"
+        Level: 3000
+    3:
+        Id: "poison"
+        Level: 3
+    4:
+        Id: "looting"
+        Level: 6
+    5:
+        Id: "fire_aspect"
+        Level: 10
+    6:
+        Id: "smite"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "Vampire"
+        Level: 1
+  Content: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy§c x320 §f=>§c§l۵§b Kiếm §4Ma Vực§c ۵\n§fSắt Bén :§b 18\n§fHại Loài Chận Đốt :§b +9000/100 Sát Thương\n§flửa :§b 10\n§fĐộc :§b 3\n§fNhặt :§b 6\n§fTự Sửa :§b 5\n§fHút Máu :§b 1"
+"12":
+  Button: "§c§l۵§b Rìu §e Sấm Sét§c ۵"
+  Item: 
+    Id: "7:0:120"
+  New-Item:
+    Id: "275:0:1"
+    Name: "§c§l۵§b Rìu §e Sấm Sét§c ۵"
+    Lore: "§c§l۵§b Rìu §e Sấm Sét§c ۵\n §eTrời Giáng§f: Gây Sét\n§bTịnh Tâm§f: Loại Bỏ Khống Chế Khi Đánh"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 18
+    2:
+        Id: "lightning"
+        Level: 3
+    3:
+        Id: "poison"
+        Level: 3
+    4:
+        Id: "looting"
+        Level: 6
+    5:
+        Id: "fire_aspect"
+        Level: 10
+    6:
+        Id: "smite"
+        Level: 30
+    7:
+        Id: "unbreaking"
+        Level: 10000
+    8:
+        Id: "autorepair"
+        Level: 5
+    9:
+        Id: "blessed"
+        Level: 3
+    10:
+        Id: "efficiency"
+        Level: 11
+    11:
+        Id: "fortune"
+        Level: 5
+  Content: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy§c x120 §f=>§c§l۵§b Rìu §e Sấm Sét§c ۵\n§fSắt Bén :§b 18\n§fHại Loài Chận Đốt :§b +9000/100 Sát Thương\n§flửa :§b 10\n§fĐộc :§b 3\n§fNhặt :§b 6\n§fTự Sửa :§b 5\n§fMiễn Khống :§b 3\n§fHiệu Xuất :§b 11\n§fGia Tài :§b 5"
+"13":
+  Button: "§a§lXì Hơi §7Giáp"
+  Item: 
+    Id: "7:0:320"
+  New-Item:
+    Id: "307:0:1"
+    Name: "§a§lXì Hơi §7Giáp"
+    Lore: "§a§lXì Hơi §7Giáp\n§3§lXì Hơi§f : Xì Hơi Xung quanh và gây sát thương Phép đến mục tiêu gần đó"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 22
+    2:
+        Id: "projectile_protection"
+        Level: 22
+    3:
+        Id: "blast_protection"
+        Level: 22
+    4:
+        Id: "thorns"
+        Level: 5
+    5:
+        Id: "respiration"
+        Level: 22
+    6:
+        Id: "fire_protection"
+        Level: 22
+    7:
+        Id: 424
+        Level: 1
+    8:
+        Id: "Overload"
+        Level: 1
+  Content: "§f§l[§1Bedrock§f] §7Khối§4 Đá Qúy§c x320 §f=> §a§lXì Hơi §7Giáp"

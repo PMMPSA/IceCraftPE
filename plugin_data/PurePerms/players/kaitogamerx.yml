@@ -1,0 +1,22 @@
+---
+userName: KaitoGamerX
+group: Admin
+permissions:
+- skillminer.fastmine
+- skillminer.kingofblock
+- skillminer.pickaxeleveling
+- skillminer.richdreamer
+- skillminer.rebirthminer
+- skillminer.eternity
+- pocketmine.command
+worlds:
+  sb:
+    group: Guest
+    permissions:
+    - nobanned
+    - pocketmine:op
+    expTime: -1
+time: -1
+prefix: 5
+expTime: -1
+...

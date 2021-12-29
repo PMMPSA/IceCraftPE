@@ -1,0 +1,286 @@
+---
+Guest:
+  alias: gst
+  inheritance: []
+  permissions:
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: true
+      permissions: []
+  isDefault: true
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - essentials.fly
+  - essentials.gamemode
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine.blah
+  - pocketmine.broadcast
+  - pocketmine.command.ban
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.pets
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - quyenvip.command
+  - sell
+  - sell.all
+  - theodoi.command
+  - wand.command
+  - we.command.admin
+  - we.commands.admin
+  - we.commands.set
+  - we.commands.wand
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.blah
+  - pocketmine.command
+  - pperms.command
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+VIP1:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - fly.command
+  - pocketmine.command.teleport
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+VIP2:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.feed
+  - essentials.fly
+  - fly.command
+  - pocketmine.command.feed
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+VIP3:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - essentials.nick
+  - fly.command
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+VIP4:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - essentials.nick
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+VIP5:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.feed
+  - essentials.fly
+  - essentials.gamemode
+  - essentials.nick
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine.command.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Police:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - essentials.gamemode
+  - essentials.mute
+  - essentials.nick
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine
+  - pocketmine.command.ban
+  - pocketmine.command.feed
+  - pocketmine.command.gamemode
+  - pocketmine.command.heal
+  - pocketmine.command.kick
+  - pocketmine.command.mute
+  - pocketmine.command.teleport
+  - pocketmine.command.transfer
+  - pocketmine.command.weather
+  - quyenvip.command
+  - sell
+  - sell.all
+  - theodoi.command
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Helper:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - essentials.nick
+  - feed.command
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine.command.feed
+  - pocketmine.command.heal
+  - pocketmine.command.kick
+  - pocketmine.command.mute
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - pocketmine.command.transfer
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Youtube:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - essentials.gamemode
+  - essentials.nick
+  - fly.command
+  - pocketmine.command.broadcast
+  - pocketmine.command.give
+  - pocketmine.command.say
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.command.transfer
+  - quyenvip.command
+  - sell
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Builder:
+  alias: ""
+  inheritance: []
+  permissions:
+  - fly.command
+  - nick.help
+  - nick.set
+  - pocketmine.comaand.wand
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.teleport
+  - pocketmine.command.transfer
+  - quyenvip.command
+  - sell.all
+  - theodoi.command
+  - we.commands.admin
+  - we.commands.set
+  - we.commands.wand
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+PMem:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - fly.command
+  - quyenvip.command
+  - sell.all
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Manager:
+  alias: ""
+  inheritance: []
+  permissions: []
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+Ngaunhuboncau:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+§acmd:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds:
+    sb:
+      isDefault: false
+      permissions: []
+§aHacked§a:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...

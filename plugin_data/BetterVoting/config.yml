@@ -1,0 +1,36 @@
+﻿---
+# API Key from https://minecraftpocket-servers.com
+api-key: "9IfwmtvifXDgM32k2j0DYD60WsjwwADtP7"
+claim:
+  # Message Variables:
+  # {real-name} - The voter's full username
+  # {display-name} - The voter's display name
+  # & - Change message color
+  # {x} - Voter's X coordinate
+  # {floor-x} - Voter's X coordinate rounded
+  # {y} - Voter's Y coordinate
+  # {floor-y} - Voter's Y coordinate rounded
+  # {z} - Voter's Z coordinate
+  # {floor-z} - Voter's Z coordinate rounded
+  broadcast: "§l§e[§bICE§e]§c{real-name} §ađã vote cho máy chủ tại §ebit.do/icecraft §avà nhận được phần quà hấp dẫn!" # Message to be broadcast when a player votes
+  message: "§l§e[§bICE§e]§aCảm ơn bạn đã Vote!" # Message to send to the player who voted
+  items:
+  # Items to be given to the player when they vote
+  # Item format: "ItemName:Damage:ICount:CustomName:EnchantName:EnchantLevel"
+  # Item IDs are not supported, use the item names instead
+  # Replace spaces with "_" for item names
+  # For no custom name/default item name, put "default"
+  # First 4 fields are required, enchants are optional
+  # You can have unlimited enchants, just follow the format "EnchantName:EnchantLevel:EnchantName:EnchantLevel" etc
+  # There is also support for PiggyCustomEnchants, use same format as normal enchants
+  - "diamond_sword:10:1:Vote Sword:sharpness:5:unbreaking:3"
+  commands:
+  # Commands to be executed by console when a player votes
+  # Do not include "/" at the start of the command
+  - "givemoney {real-name} 50000"
+  - "givepoint {real-name} 10"
+top-votes:
+  title: "§l§c•§eTop §aVote §bTrong §dTháng§c•" # Message sent before displaying top votes
+  display: 10 # Amount of top votes to disp;ay, can't be bigger than 500
+  format: "§l&a{number}. &b{username}: &e{votes}" # Format of displaying top voters
+...

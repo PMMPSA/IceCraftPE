@@ -1,0 +1,593 @@
+#
+#
+#  Config Trade
+# Example:
+#           |"1":     
+#           |   Button: Example Trade
+#           |   support: 
+#           |       money: "true|false"
+#           |       point: "true|false"
+#           |   price:
+#           |       money: <price>
+#           |       point: <price>
+#           |   New-Item:
+#           |       Id: id:meta:count
+#           |       Name: Name Item
+#           |       Lore: Lore Item
+#           |   Enchantments:
+#           |       Id: ID enchantment
+#           |       Level: Level Enchantment
+#           |   Content: Content Trade
+"1":
+  Button: "§c§l✡§f Cúp§a Đại Lục §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 259 
+  New-Item:
+    Id: "257:0:1"
+    Name: "§c§l✡§f Cúp§a Đại Lục §c✡"
+    Lore: "§c§l✡§f Cúp§a Đại Lục §c✡\n§fĐánh Gía :§5 ⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fCúp Cao Cấp Thuộc Hệ §7Thạch Tinh\n§f===================\n§6Kĩ Năng:\n§f-§7 Cứng Cáp§f : giúp cho cúp không bao giờ hỏng\n§f-§b Tăng Tốc Đào§f : Khi Phá Block sẽ nhận BUFF"
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 7
+    2:
+        Id: 202
+        Level: 2
+    3:
+        Id: "fortune"
+        Level: 3
+    4:
+        Id: 108
+        Level: 5
+    5:
+        Id: "sharpness"
+        Level: 5
+    6:
+        Id: "unbreaking"
+        Level: 500
+  Content: " §c§l✡§f Cúp§a Đại Lục §c✡ §f: §b259 §6Point§e$\n§fĐào Nhanh Khi Phá Block:§b 2\n§fHiệu Xuất:§b 7\n§fTự sửa:§b 5\n§fGia Tài:§b 3\n§fSắt Bén:§b 5\n§fChậm Hỏng:§b 500"
+"2":
+  Button: "§c§l✡§f Giáp§2 Tru Tiên §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 3290000
+    point: 599 
+  New-Item:
+    Id: "307:0:1"
+    Name: "§c§l✡§f Giáp§2 Tru Tiên §c✡"
+    Lore: "§c§l✡§f Giáp§2 Tru Tiên §c✡\n§fĐánh Gía :§5 ⋆⋆⋆\n§fPhẩm Chất :§5 Tím\n§fĐược Rèn Trong Lò Luyện Tiên Kim Nóng Nhất Vũ Trụ\n§f===================\n§6Kĩ Năng:\n§f-§7 Tốc Độ§f : khi máu càng thấp bạn sẽ nhận được tốc chạy càng cao \n§f-§b Sinh Lực§f : Tăng Máu Tối Đa"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 10
+    2:
+        Id: "endershift"
+        Level: 2
+    3:
+        Id: "overload"
+        Level: 2
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "fire_protection"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "thorns"
+        Level: 1
+  Content: " §c§l✡§f Giáp§2 Tru Tiên §c✡ §f: §b599 §6Point §e$\n§fBảo Vệ :§b 10\n§fKháng Lửa :§b 10\n§fTự sửa :§b 5\n§fTăng Máu:§b 2\n§fTăng tốc chạy :§b 1\n§fChậm Hỏng:§b 500"
+"3":
+  Button: "§c§l✡§f Cúp§6 Đại Ngọc Bảo §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 799 
+  New-Item:
+    Id: "278:0:1"
+    Name: "§c§l✡§f Cúp§6 Đại Ngọc Bảo §c✡"
+    Lore: "§c§l✡§f Cúp§6 Đại Ngọc Bảo §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fCúp có tính năng đào nhanh \n§f===================\n§6Kĩ Năng:\n§f-§5 Nhặt§f : tự động hút item vào túi đồ\n§f-§b Đào nhanh§f : Đào nhanh hơn"
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 8
+    2:
+        Id: "sharpness"
+        Level: 5
+    3:
+        Id: "fortune"
+        Level: 2
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "haste"
+        Level: 1
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "telepathy"
+        Level: 1
+  Content: " §c§l✡§f Cúp§6 Đại Ngọc Bảo §c✡✡ §f: §b799 §6Point§e$\n§fVụ Nổ :§b 1\n§fHiệu Xuất:§b 8\n§fTự sửa:§b 5\n§fGia Tài:§b 2\n§fNhặt Item:§b 1\n§fChậm Hỏng:§b 500\n§fSắt bén :§b 5"
+"4":
+  Button: "§c§l✡§f Cúp§5 Ma Thuật §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 1888888
+    point: 499 
+  New-Item:
+    Id: "278:0:1"
+    Name: "§c§l✡§f Cúp§5 Ma Thuật §c✡"
+    Lore: "§c§l✡§f Cúp§5 Ma Thuật §c✡\n§fĐánh Gía :§5 ⋆⋆\n§fPhẩm Chất :§6 Cam\n§fCúp Cao Cấp Thuộc Hệ §5Ma Thuật\n§f===================\n§6Kĩ Năng:\n§f-§5 Nhặt§f : tự động hút item vào túi đồ\n§f-§b Tăng Tốc Chạy§f : Khi Phá Block sẽ nhận BUFF"
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 7
+    2:
+        Id: "haste"
+        Level: 2
+    3:
+        Id: "fortune"
+        Level: 4
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "quickening"
+        Level: 2
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "telepathy"
+        Level: 1
+  Content: " §c§l✡§f Cúp§a Đại Lục §c✡ §f: §b499 §6Point§e$\n§fĐào Nhanh :§b 2\n§fHiệu Xuất:§b 7\n§fTự sửa:§b 5\n§fGia Tài:§b 4\n§fNhặt Item:§b 1\n§fChậm Hỏng:§b 500\n§fTăng Tốc Chạy Khi Phá Block:§b 2"
+"5":
+  Button: "§c§l✡§f Cúp§1 Canh Tý§6 2020 §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 999 
+  New-Item:
+    Id: "278:0:1"
+    Name: "§c§l✡§f Cúp§e Thần Tài§6 2020 §c✡ §f[§1Canh Tý§f]"
+    Lore: "§c§l✡§f Cúp§e Thần Tài§6 2020 §c✡\n§fĐánh Gía :§5 ⋆⋆\n§fPhẩm Chất :§6 Cam\n§fCúp Cao Cấp Thuộc Hệ §5Ma Thuật\n§f===================\n§6Kĩ Năng:\n§f-§5 Nhặt§f : tự động hút item vào túi đồ\n§f-§b Tăng Tốc Chạy§f : Khi Phá Block sẽ nhận BUFF"
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 55
+    2:
+        Id: "haste"
+        Level: 3
+    3:
+        Id: "fortune"
+        Level: 30
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "jackpot"
+        Level: 3
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "telepathy"
+        Level: 1
+    8:
+        Id: "smelting"
+        Level: 1
+  Content: " §c§l✡§f Cúp§e Thần Tài§6 2020 §c✡ §c: §b999 §6Point\n§fĐào Nhanh :§b 5\n§fHiệu Xuất:§b 18\n§fTự sửa:§b 5\n§fGia Tài:§b 30\n§fNhặt Item:§b 1\n§fChậm Hỏng:§b 500\n§fTỉ Lệ x2 Block:§b 2\n§fTự Nung :§b 1"
+"6":
+  Button: "§c§l✡§f Nón§4 Nguyệt Diệt §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 4390000
+    point: 346 
+  New-Item:
+    Id: "310:0:1"
+    Name: "§c§l✡§f Nón§4 Nguyệt Diệt §c✡"
+    Lore: "§c§l✡§f Nón§4 Nguyệt Diệt §c✡\n§fĐánh Gía :§5 ⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fmột Tu Sĩ Mù đã giam cầm linh hồn\n§fMột con Qủy Vào Cái nón này\n§fAi sở Hữu sẽ có khả năng bất bại\n§f===================\n§6Kĩ Năng:\n§f-§7 Miễn Thương§f : Giảm 30/100 sát thương từ§6 Kiếm§f và§6 Cung\n§f-§b Sinh Lực§f : Tăng Máu Tối Đa"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 15
+    2:
+        Id: "endershift"
+        Level: 2
+    3:
+        Id: "overload"
+        Level: 3
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "fire_protection"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "Heavy"
+        Level: 2
+    8:
+        Id: "Tank"
+        Level: 2
+  Content: " §c§l✡§f Nón§4 Nguyệt Diệt §c✡ §f: §b346 §6Point §e$\n§fBảo Vệ :§b 15\n§fKháng Lửa :§b 10\n§fTự sửa :§b 5\n§fTăng Máu:§b 3\n§fTăng tốc chạy :§b 1\n§fChậm Hỏng:§b 500\n§fGiảm Sát Thương từ Kiếm:§b 30/100\n§fGiảm Sát Thương từ Cung:§b 30/100"
+"7":
+  Button: "§c§l✡§f Kiếm§6 Ma Quái §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 5390000
+    point: 574 
+  New-Item:
+    Id: "276:0:1"
+    Name: "§c§l✡§f Kiếm§6 Ma Quái §c✡"
+    Lore: "§c§l✡§f Kiếm§6 Ma Quái §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fĐây là vũ khí đã tiêu diệt§4 Annabell§f và§4 The Nun\n§fMang Nguồn Sức Mạnh Tâm Linh Đáng Sợ\n§f===================\n§6Kĩ Năng:\n§f-§3 Hiệu Ứng: Gây Nhiều Loại Buff khác nhau\n§f-§b Chí Mạng§f : Tăng Sát Thương Khi Nhảy và đánh"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 15
+    2:
+        Id: "wither"
+        Level: 3
+    3:
+        Id: "poison"
+        Level: 3
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "smite"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "aerial"
+        Level: 2
+    8:
+        Id: "fire_aspect"
+        Level: 3
+  Content: " §c§l✡§f Kiếm§6 Ma Quái §c✡ §f: §b574 §6Point §e$\n§fSắt Bén :§b 15\n§fLửa :§b 2\n§fTự sửa :§b 5\n§fĐộc :§b 3\n§fWither :§b 3\n§fChậm Hỏng:§b 500\n§fChí Mạng:§b 2"
+"8":
+  Button: "§c§l✡§f Kiếm§1 Ràng Buộc §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 899 
+  New-Item:
+    Id: "276:0:1"
+    Name: "§c§l✡§f Kiếm§1 Ràng Buộc §c✡"
+    Lore: "§c§l✡§f Kiếm§1 Ràng Buộc §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột vũ khí Huyền Thoại của một kẻ Ham muốn§f và§fgiam cầm và tra tấn\n§fMang Nguồn Sức Mạnh ma quái Đáng Sợ\n§f===================\n§6Kĩ Năng:\n§f-§3 Hiệu Ứng: Làm cHậm và Mù\n§f-§b Giam Cầm§f : Giam muc tiêu vào bedrock trong 16s"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 17
+    2:
+        Id: "cripple"
+        Level: 3
+    3:
+        Id: "blind"
+        Level: 3
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "smite"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "hallucination"
+        Level: 3
+    8:
+        Id: "fire_aspect"
+        Level: 3
+  Content: " §c§l✡§f Kiếm§1 Ràng Buộc §c✡ §f: §b899 §6Point §e\n§fSắt Bén :§b 17\n§fLửa :§b 4\n§fTự sửa :§b 5\n§fLàm Chậm :§b 3\n§fGiam Cầm :§b 3\n§fChậm Hỏng:§b 500\n§fMù:§b 3"
+"9":
+  Button: "§c§l✡§f Kiếm§3 H§cỗ§en §aH§6ợ§5p §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 699 
+  New-Item:
+    Id: "276:0:1"
+    Name: "§c§l✡§f Kiếm§3 H§cỗ§en §aH§6ợ§5p §c✡"
+    Lore: "§c§l✡§f Kiếm§3 H§cỗ§en §aH§6ợ§5p §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆⋆\n§fPhẩm Chất :§4 Đỏ\n§fMột vũ khí Huyền Thoại của Vũ Trụ§f và§fdo the§2 Tutle§f và§4 IT§f tạo ra\n§fNgẫu Nhiên Từ HƯ VÔ\n§f===================\n§6Kĩ Năng:\n§f-§3 Hiệu Ứng: Mang Mọi Hiệu Ứng của HƯ VÔ\n§f-§b Sát Khí§f : Dame + +"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 17
+    2:
+        Id: "deathbringer"
+        Level: 2
+    3:
+        Id: "blind"
+        Level: 2
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "poison"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "cripple"
+        Level: 2
+    8:
+        Id: "fire_aspect"
+        Level: 10
+    9:
+        Id: "wither"
+        Level: 2
+    10:
+        Id: "smite"
+        Level: 11
+    11:
+        Id: "looting"
+        Level: 3
+  Content: " §c§l✡§f Kiếm§3 H§cỗ§en §aH§6ợ§5p §c✡ §f: §b699 §6Point§e\n§fSắt Bén :§b 17\n§fLửa :§b 10\n§fTự sửa :§b 5\n§fLàm Chậm :§b 2\n§fSát Khí :§b 2\n§fChậm Hỏng:§b 500\n§fMù:§b 2\n§fĐộc:§b 2\n§fWither:§b 2"
+"10":
+  Button: "§c§l✡§f Nón §aChữa Lành §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 399
+  New-Item:
+    Id: "306:0:1"
+    Name: "§c§l✡§f Nón §aChữa Lành §c✡"
+    Lore: "§c§l✡§f Nón §aChữa Lành §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột Trang Bị Tăng Hồi Phục \n§fkhi bị đánh\n§f===================\n§6Kĩ Năng:\n§f-§a Chữa Lành: Tăng hồi phục\n§f-§b Tăng Máu§f : 1"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 16
+    2:
+        Id: "overload"
+        Level: 1
+    3:
+        Id: "autorepair"
+        Level: 5
+    4:
+        Id: "fire_protection"
+        Level: 10
+    5:
+        Id: "unbreaking"
+        Level: 500
+    6:
+        Id: "thorns"
+        Level: 3
+    7:
+        Id: "blast_protection"
+        Level: 12
+    8:
+        Id: "enlighted"
+        Level: 2
+  Content: " §c§l✡§f Nón §aChữa Lành §c✡ §f: §b399 §6Point"
+"11":
+  Button: "§c§l✡§f Giáp §aChữa Lành §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 599
+  New-Item:
+    Id: "307:0:1"
+    Name: "§c§l✡§f Giáp §aChữa Lành §c✡"
+    Lore: "§c§l✡§f giáp §aChữa Lành §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột Trang Bị Tăng Hồi Phục \n§fkhi bị đánh\n§f===================\n§6Kĩ Năng:\n§f-§a Chữa Lành: Tăng hồi phục\n§f-§b Tăng Máu§f : 1"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 16
+    2:
+        Id: "enlighted"
+        Level: 2
+    3:
+        Id: "overload"
+        Level: 1
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "fire_protection"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "thorns"
+        Level: 3
+    8:
+        Id: "blast_protection"
+        Level: 12
+  Content: " §c§l✡§f Giáp §aChữa Lành §c✡ §f: §b599 §6Point"
+"12":
+  Button: "§c§l✡§f Quần §aChữa Lành §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 499
+  New-Item:
+    Id: "308:0:1"
+    Name: "§c§l✡§f Quần §aChữa Lành §c✡"
+    Lore: "§c§l✡§f quần §aChữa Lành §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột Trang Bị Tăng Hồi Phục \n§fkhi bị đánh\n§f===================\n§6Kĩ Năng:\n§f-§a Chữa Lành: Tăng hồi phục\n§f-§b Tăng Máu§f : 1"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 16
+    2:
+        Id: "enlighted"
+        Level: 2
+    3:
+        Id: "overload"
+        Level: 1
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "fire_protection"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "thorns"
+        Level: 3
+    8:
+        Id: "blast_protection"
+        Level: 12
+  Content: " §c§l✡§f Quần §aChữa Lành §c✡ §f: §b499 §6Point"
+"13":
+  Button: "§c§l✡§f Giày §aChữa Lành §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 399
+  New-Item:
+    Id: "307:0:1"
+    Name: "§c§l✡§f Giày §aChữa Lành §c✡"
+    Lore: "§c§l✡§f giày §aChữa Lành §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột Trang Bị Tăng Hồi Phục \n§fkhi bị đánh\n§f===================\n§6Kĩ Năng:\n§f-§a Chữa Lành: Tăng hồi phục\n§f-§b Tăng Máu§f : 1"
+  Enchantments:
+    1:
+        Id: "protection"
+        Level: 16
+    2:
+        Id: "enlighted"
+        Level: 2
+    3:
+        Id: "overload"
+        Level: 1
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "fire_protection"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "thorns"
+        Level: 3
+    8:
+        Id: "blast_protection"
+        Level: 12
+  Content: " §c§l✡§f Giày §aChữa Lành §c✡ §f: §b399 §6Point"
+"14":
+  Button: "§c§l✡§f Rìu§e Thiên Ma §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 839 
+  New-Item:
+    Id: "286:0:1"
+    Name: "§c§l✡§f Rìu§e Thiên Ma §c✡"
+    Lore: "§c§l✡§f Rìu§e Thiên Ma §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fMột Trang Bị Thất Truyền Lâu Năm\n§fgiúp kẻ sỡ hữu chặt cây lẹ hơn :))\n§f===================\n§6Kĩ Năng:\n§f-§3 Hiệu Ứng: Gây Nhiều Loại Buff khác nhau\n§f-§b Chí Mạng§f : Tăng Sát Thương Khi Nhảy và đánh"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 15
+    2:
+        Id: "quickening"
+        Level: 2
+    3:
+        Id: "smite"
+        Level: 3
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "smite"
+        Level: 10
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "lumberjack"
+        Level: 3
+    8:
+        Id: "jackpot"
+        Level: 2
+    9:
+        Id: "fire_aspect"
+        Level: 2
+  Content: " §c§l✡§f Rìu§e Thiên Ma §c✡ §f: §b839 §6Point §e$\n§fSắt Bén :§b 15\n§fLửa :§b 2\n§fTự sửa :§b 5\n§f	Lumberjack :§b 3\n§fWither :§b 3\n§fChậm Hỏng:§b 500\n§fx2 block:§b 2"
+"15":
+  Button: "§c§l✡§f Xẻng§7 Phá Giáp §c✡"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 539 
+  New-Item:
+    Id: "256:0:1"
+    Name: "§c§l✡§f Xẻng§7 Xuyên Phá §c✡"
+    Lore: "§c§l✡§f Xẻng§7 Xuyên Phá §c✡\n§fĐánh Gía :§5 ⋆⋆⋆⋆\n§fPhẩm Chất :§6 Cam\n§fTốc Đánh : +\n§fXuyên Giáp : +\n§f===================\n§6Kĩ Năng:\n§f-§c Đào 3x2§f : Đào diện tích 3x2"
+  Enchantments:
+    1:
+        Id: "sharpness"
+        Level: 33
+    2:
+        Id: "quickening"
+        Level: 2
+    3:
+        Id: "smite"
+        Level: 30
+    4:
+        Id: "autorepair"
+        Level: 5
+    5:
+        Id: "smite"
+        Level: 20
+    6:
+        Id: "unbreaking"
+        Level: 500
+    7:
+        Id: "driller"
+        Level: 2
+    8:
+        Id: "energizing"
+        Level: 3
+    9:
+        Id: "fire_aspect"
+        Level: 20
+    10:
+        Id: "efficiency"
+        Level: 8
+  Content: " §c§l✡§f Xẻng§7 Xuyên Phá §c✡ §f: §b539 §6Point"

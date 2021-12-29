@@ -1,0 +1,95 @@
+---
+version: 1.4.0-BETA-04
+default-factions-plugin: FactionsPro
+enable-multiworld-chat: false
+groups:
+  Guest:
+    chat: §7§l[§r{fac_name}§7§l] §e»§a…§fƸ§7→§fᙢember§7←§7Ʒ§a…§e«§r §b♦ §f{display_name}§b♦
+      §a⇌ §7{msg} §a⇋
+    nametag: §e»§a…§fƸ§7→§fᙢember§7←§7Ʒ§a…§e« §f{display_name}
+    worlds: []
+  Owner:
+    chat: §c[§e{fac_name}§c] §e→§d•×§aOwner§d×•§e← §a[*§e{display_name}§a*] §d→•§a{msg}
+      §d•←
+    nametag: §e»…§cᄉ§7→§cØwner§7←§cᄉ§e…§e« §b{display_name}
+    worlds: []
+  Helper:
+    chat: §c[§e{fac_name}§c] §d✿§c...§aĦełper§c...§d✿§6» §r{display_name} §6«§a♫§e⇛§3{msg}
+      §e⇚
+    nametag: §e»§6…§d「§7→§aHelper§7←§d」§6…§e« §f{display_name}
+    worlds: []
+  Builder:
+    chat: §c[§e{fac_name}§c] §c❖§a...§d❦§6ɮʊɨŁđɛɾ§d❦§a...§c❖ §b{display_name} §5⇥§a{msg}
+      §5⇤
+    nametag: §e»…§6♨§7→§6Builder§7←§6♨§e…§e« §f{display_name}
+  Police:
+    chat: §c[§e{fac_name}§c] §c✇§6...§a❂§bΡølice§a❂§6...§c✇§f⇨§a§l{display_name}§r§e➟§e{msg}
+    nametag: §e»§6…§9✪§7→§9₱olice§7←§9✪§6…§e« §f{display_name}
+  Youtube:
+    chat: §6[§r{fac_name}§6] §4•§e YӨЦƬЦBΣЯ§4• {display_name} §6√ §f{msg} §6√
+    nametag: §e»§6…§4❤§b♪§cYδμ§fṯüḇε§b♪§4❤§6…§e« §f{display_name}
+  PMem:
+    chat: §6[§b{fac_name}§6]§e»§a…§fƸ§7→§bṔrσ_ᙢember§7←§fƷ§a…§e« §f{display_name}§e⇝
+      §f{msg} §e⇜
+    nametag: §e»§a…§fƸ§7→§bṔrσ_ᙢember§7←§7Ʒ§a…§e« §f{display_name}
+  vip1:
+    chat: §6[§b{fac_name}§6]§e»&f..₪&e♦&6›&bVIP&d-&eɪ&6‹&e♦&f₪.. §e« §f{display_name}§e⇝
+      §o§6{msg} §e⇜
+    nametag: §e»&f..₪&e♦&6›&bVIP&d-&eɪ&6‹&e♦&f₪..« §f{display_name}
+  vip2:
+    chat: §6[§b{fac_name}§6]§e»&f..₪&e♦&6›&bVIP&d-&eɪɪ&6‹&e♦&f₪..§e« §f{display_name}§e⇝
+      §o§6{msg} §e⇜
+    nametag: §e»&f..₪&e♦&6›&bVIP&d-&eɪɪ&6‹&e♦&f₪..« §f{display_name}
+  vip3:
+    chat: §6[§b{fac_name}§6]§e»&f..₪&e♦&6›&bVIP&d-&eɪɪɪ&6‹&e♦&f₪..§e« §f{display_name}§e⇝
+      §o§6{msg} §e⇜
+    nametag: §e»&f..₪&e♦&6›&bVIP&d-&eɪɪɪ&6‹&e♦&f₪..§e« §f{display_name}
+  vip4:
+    chat: §6[§b{fac_name}§6]§e»&f..₪&e♦&6›&bVIP&d-&eɪⱱ&6‹&e♦&f₪..§e« §f{display_name}§e⇝
+      §o§6{msg} §e⇜
+    nametag: §e»&f..₪&e♦&6›&bVIP&d-&eɪⱱ&6‹&e♦&f₪..« §f{display_name}
+  vip5:
+    chat: §6[§b{fac_name}§6]§e»&f..₪&e♕&6›&bVIP&d-&eⱱ&6‹&e♕&f₪..§e« §f{display_name}§e⇝
+      §o§6{msg} §e⇜
+    nametag: §e»&f..₪&e♕&6›&bVIP&d-&eⱱ&6‹&e♕&f₪..§e« §f{display_name}
+  vip6:
+    chat: §c[§e{fac_name}§c] §f..•§e♦§6>§bVIP§d-§eVI§6<§e♦§f•.. §f{display_name} §e§l§o→§r§6{msg}
+      §e§l§o←
+    nametag: §e»§3…§e♕§7→§b۷ïṕ§7−§6VI§7←§e♕§3…§e« §f{display_name}
+  Admin:
+    nametag: '&8&l§f__§e$Admin$§f__&f&r {display_name}'
+    chat: §r§b[§r{fac_name}§l§b] §e۩§6…§r§dΛ§cɖ§aɱ§eɨ§bɲ§l§6…§e۩  §r§l§c{display_name}§r§d⊹⊱✿
+      §c{msg} §r§d✿
+  Manager:
+    nametag: §6[§e{fac_name}§c] §e→§d•×§aƒさ→๓คภคﻮєг༻꧂§d×•§e← §a[*§e{display_name}§a*]
+      §d→•§a{msg} §d•←
+    chat: §e»…§cᄉ§7→§6ƒさ→๓คภคﻮєг༻꧂§7←§cᄉ§e…§e« §b{display_name} §d→•§a{msg} §d•←
+  Ngaunhuboncau:
+    chat: §l§f[§c{fac_name}§f]§e∆§a•§f|§cNgầu§aNhư§dBồn§bCầu§f|§a•§e∆§f{display_name}§c»§a{msg}:))
+    nametag: '[{fac_name}]§l§e∆§a•§f|§cNgầu§aNhư§dBồn§bCầu§f|§a•§e∆'
+  VIP1:
+    chat: '§l§7[§r§e{fac_name}§7§l] §r§b●°)>§7§l_§eVip§dI§7_§r§b<(°● §f§l{display_name}:
+      §r§a{msg}'
+    nametag: '&r§eVip§dI&f&r {display_name}'
+  VIP2:
+    chat: '§l§7[§r§e{fac_name}§7§l] §r§b●°)>§7§l_§eVip§dII§7_§r§b<(°● §f§l{display_name}:
+      §r§a{msg}'
+    nametag: '&r§eVip§dII&f&r {display_name}'
+  VIP3:
+    chat: '§l§7[§r§e{fac_name}§7§l] §r§b●°)>§7§l_§eVip§dIII§7_§r§b<(°● §f§l{display_name}:
+      §r§a{msg}'
+    nametag: '&8&l[VIP3]&f&r {display_name}'
+  VIP4:
+    chat: '§l§7[§r§e{fac_name}§7§l] §r§b●°)>§7§l_§eVip§dIV§7_§r§b<(°● §f§l{display_name}:
+      §r§a{msg}'
+    nametag: '&8&l[VIP4]&f&r {display_name}'
+  VIP5:
+    chat: '§l§7[§r§e{fac_name}§7§l] §r§b●°)>§7§l_§eVip§dV§7_§r§b<(°● §f§l{display_name}:
+      §r§a{msg}'
+    nametag: '&8&l[VIP5]&f&r {display_name}'
+  §acmd:
+    chat: '§r§7§o[Rcon: Banned WilfredVN]'
+  §aHacked§a:
+    chat: '§b§l⟩ SAC: §cServer hacked by {msg} !!!'
+    nametag: '&8&l[§aHacked§a]&f&r {display_name}'
+...

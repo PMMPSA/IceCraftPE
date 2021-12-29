@@ -1,0 +1,19 @@
+---
+Prefix: §l§a[§bChợ Đen§a] §r
+HoldItem: §cHãy cầm đồ trên tay§r
+SurvivalOnly: §cVui lòng chỉnh chế độ Sinh Tồn
+DontMove: §cĐừng di chuyển khi mở chợ
+AddAuctionSuccess: §fBán thành công §b{itemName} §fx§b{itemCount} §fvới giá §b{price}
+  §ftrên §aChợ đen§r
+ReachAuctionLimit: §cĐã quá số đồ được bán cho phép§r
+InvalidPriceRange: §cChỉ được bán với giá từ §b{minimumPrice} §cđến §b{maximumPrice}§r
+InvalidPriceValue: §cHãy điền số§r
+InvalidItem: §cĐồ bị cấm
+ReceivedMoney: §fBạn nhận §b{money} §ftừ §achợ đen§r
+PurchaseSuccess: §fBạn mua thành công §b{itemName} §fx§b{itemCount} §fvới giá §b{price}§r
+NotEnoughMoney: §cBạn không đủ tiền để mua§r
+FailedToOpen: §cCó lỗi, thử lần sau
+MoveUp: §cCó lỗi, thử lại ở chỗ khác
+NoDupe: §cDupe không được áp dụng!
+NotAvailable: §cHình như đồ này bị bán trước hay gì rồi, làm mới xem§r
+...

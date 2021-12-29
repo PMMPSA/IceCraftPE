@@ -1,0 +1,89 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "§l§bICE§aCraft§e<•>§6NetWork "
+OutdatedClient:
+  custom: true
+  message: "&cPhiên bản không hợp lệ"
+OutdatedServer:
+  custom: true
+  message: "&cOops! Server outdated!"
+WhitelistedServer:
+  custom: true
+  message: "&cServer đang bảo trì"
+FullServer:
+  custom: true
+  message: "&aServer đã đầy"
+FirstJoin:
+  enable: true
+  message: "&a[+] &e{PLAYER}&6 lần đầu tham gia máy chủ"
+Join:
+  hide: false
+  custom: true
+  message: "&a[+] &e{PLAYER}"
+Quit:
+  hide: false
+  custom: true
+  message: "&c[-] &e{PLAYER}"
+WorldChange:
+  enable: false
+  message: "&a{PLAYER}&e đã đi qua thế giới &c{TARGET}"
+Death:
+  hide: false
+  custom: true
+  message: "&a{PLAYER} &cchết"
+  death-contact-message:
+    hide: true
+    custom: false
+    message: "&cWTF! §a{PLAYER} §cđã bị giết bởi §e{BLOCK} ?"
+  kill-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cđã bị giết bởi &e{KILLER}"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER}&c đã bị bắn bởi &e{KILLER}"
+  death-suffocation-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cnghẹt thở"
+  death-fall-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &crơi xuống vực thẳm"
+  death-fire-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cđã bị cháy"
+  death-on-fire-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cbị hỏa thiêu"
+  death-lava-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cbơi trong dung nham"
+  death-drowning-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cchết đuối"
+  death-explosion-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cbị nổ tung"
+  death-void-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} §crơi xuống vực thẳm"
+  death-suicide-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &ctự tử"
+  death-magic-message:
+    hide: false
+    custom: true
+    message: "&a{PLAYER} &cchết bởi ma thuật ??"
+...

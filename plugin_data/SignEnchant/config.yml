@@ -1,0 +1,14 @@
+---
+#Create op SignEnchant
+Create: §cVoce Não Tem OP Pra Criar SignEnchant.
+#How to create
+Create2: §a1.linha §eSignEnchant §a2.Linha §eEncantamento ID §a3.linha §ePreco 4.Linha §eNivel
+#Successfully built
+Create3: §aSignEnchant Foi Criada Com Sucesso Meu Caro.
+#NoMoney
+Money: §cVocê não tem dinheiro suficiente para comprar Enchantments.
+#Off Sign Enchant
+Off: §cVoce Digitou O Encantamento Errado :(
+#Off Sign Enchant OP
+Off2: §cVoce Não Tem OP Para quebrar Placas.
+...

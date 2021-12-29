@@ -1,0 +1,4 @@
+---
+cooldown-seconds: 15
+has-cooldown-message: §c[§7CoolDown§c] {TIME} secondes !
+...

@@ -1,0 +1,32 @@
+#MuaVip-Point
+point1.cost: 5
+point2.cost: 10
+point3.cost: 20
+point4.cost: 30
+point5.cost: 40
+point6.cost: 7
+point7.cost: 14
+point8.cost: 21
+point9.cost: 35
+point10.cost: 49
+point11.cost: 9
+point12.cost: 18
+point13.cost: 45
+point14.cost: 90
+point15.cost: 180
+point16.cost: 16
+point17.cost: 32
+point18.cost: 90
+point19.cost: 160
+point20.cost: 176
+point21.cost: 40
+point22.cost: 80
+point23.cost: 160
+point24.cost: 240
+point25.cost: 360
+#MuaPoint-Money
+money1.cost: 200000
+money2.cost: 400000
+money3.cost: 600000
+money4.cost: 800000
+money5.cost: 1000000

@@ -1,0 +1,6 @@
+---
+protect: lock
+bancmds:
+  /fly: /fly
+  /gamemode: /gamemode
+...

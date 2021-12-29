@@ -1,0 +1,72 @@
+﻿---
+# Available tags for broadcast messages, popups and titles:
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Available tags for /sendmessage, /sendpopup and /sendtitle format:
+# - {MESSAGE}: Show message
+# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+# - {TOTALPLAYERS}: Show the number of all online players
+# - {PREFIX}: Show prefix
+# - {PLAYER}: Message receiver
+# - {SENDER}: Show sender name
+# - {SUFFIX}: Show suffix
+# - {TIME}: Show current time
+# Extra tag for titles:
+# - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) 
+# Prefix
+prefix: "§a『ICE』•>"
+# Suffix
+suffix: "[A]"
+# Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
+datetime-format: "H:i:s"
+# Message broadcast
+message-broadcast:
+ # Enable message broadcast
+ enabled: true
+ # Broadcast interval (in seconds)
+ time: 15
+ # Command /sendmessage format
+ command-format: "[{TIME}] {PREFIX} {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+ # Broadcast messages
+ messages:
+  - "{PREFIX}&b Dùng lệnh §e/ruleui §bđể xem nội quy của máy chủ"
+  - "{PREFIX}&b Nếu ai thấy §cHack/Cheat §bthì phải thông báo cho §cPolice §bhay §6Helper"
+  - "{PREFIX}&b Hãy §eVOTE §bcho máy để nhận được nhiều phần quà hấp dẫn"
+  - "{PREFIX}&b VOTE cho máy chủ để nhận quà tại : https://bit.do/icecraft"
+  - "{PREFIX}&b Tham gia group server tại: &chttps:bit.do/icecraftgroup"
+  - "{PREFIX}&a Mở giao diện hướng dẫn bằng lệnh &b/huongdan"
+  - "{PREFIX}&b Không Hack/Cheat trong máy chủ cần gì có thể Helper hoặc Police"
+  - "{PREFIX}&b Hãy chỉ cày cuốc để nhận các vật phẩm vip"
+  - "{PREFIX}&a Mở giao diện menu bằng lệnh &b/menu"
+  - "{PREFIX}&b Hãy là người chơi có văn hóa"
+# Popup broadcast
+popup-broadcast:
+ # Enable popup broadcast
+ enabled: false
+ # Popup broadcast interval (in seconds)
+ time: 15
+ # Popup duration (in seconds)
+ duration: 5
+ # Command /sendpopup format
+ command-format: "&a{SENDER}&e>>&f {MESSAGE}"
+ # Popup broadcast messages
+ messages:
+  - "&aWelcome to your server"
+  - "&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline"
+  - "&bCurrent Time: &a{TIME}"
+# Title broadcast
+title-broadcast:
+ # Enable title broadcast
+ enabled: false
+ # Title broadcast interval
+ time: 30
+ # Command /sendtitle format
+ command-format: "&d{MESSAGE}"
+ # Title broadcast messages
+ messages:
+  - "&aWelcome to your server!{SUBTITLE}&bGood game!"
+  - "&eHello player!"
+...
